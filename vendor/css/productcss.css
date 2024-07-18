@@ -1,0 +1,43 @@
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+}
+
+.productdesc-img img{
+    height: 450px;
+}
+
+.product-des{
+    margin: 10px;
+    padding: 10px;
+}
+.product-des h1{
+    font-size: 30px;
+}
+.product-des ul p{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+}
+.product-des ul li{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.price-card{
+    width: 450px;
+    margin-left: 20px;
+    height: 450px;
+    margin: 10px;
+    /* padding: 10px; */
+}
+.sale-info{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(138, 138, 138);
+    border-radius: 4px;
+}
+.price-card input{
+    display: inline;
+}
