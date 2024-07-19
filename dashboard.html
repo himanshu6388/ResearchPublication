@@ -13,12 +13,41 @@
 <body>
     <div class="container-fluid">
         <div class="row" style="height: 150px;">
-            <div class="col-12 col-lg-2 col-md-2 text-white bg-dark">logo</div>
+            <div class="col-12 col-lg-2 col-md-2 text-white bg-dark"><img src="images/vedgroupsm.jpg" alt="img" style="height: 100px;width: 100px;"></div>
             <div class="col-12 col-lg-7 col-md-10 text-white bg-primary">banner</div>
             <div class="col-12 col-lg-3 col-md-12 text-white bg-dark">social links</div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-2 bg-primary" style="height: auto; width: 200px;">sidebar</div>
+
+            <!-- sidebar -->
+            <div class="col-12 col-lg-2 "  style="height: auto; width: 80px; background-color: blue; ">
+                <!-- sidebar  offcanvas-->
+                <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="offcanvas-header">
+                      <h4 class="offcanvas-title">Heading</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body nav-list">
+                      <ul>
+                        <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo1">Home</a></li>
+                        <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo2">About us</a></li>
+                        <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo3">Project</a></li>
+                        <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo4">Contact us</a></li>
+                      </ul>
+                      <div id="demo1" class="collapse">I m on Home Page</div>
+                      <div id="demo2" class="collapse">I am On About Page</div>
+                      <div id="demo3" class="collapse">I  am On Project Page</div>
+                      <div id="demo4" class="collapse">I am On contact page</div>
+                    </div>
+                  </div> 
+                  <div class="container-fluid mt-3">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                      &#9776;
+                    </button>
+                  </div>
+                      <!-- sidebar offcanvas -->
+            </div>
+  <!-- sider bar end -->
             <div class="col-12 col-lg-10"> 
                 <div class="row"> 
                     <div class="col-6 col-lg-2 col-md-4 boxes">
